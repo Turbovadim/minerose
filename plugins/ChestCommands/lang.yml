@@ -1,6 +1,6 @@
-no-open-permission: '&cYou don''t have permission &e{permission} &cto use this menu.'
+no-open-permission: '&cУ вас нет права &e{permission} &cдля использования этого меню.'
 default-no-icon-permission: '&cYou don''t have permission for this icon.'
-open-menu: '&aOpening the menu "{menu}".'
+open-menu: '&aОткрываю меню "{menu}".'
 no-exp: '&cYou need {levels} XP levels for this.'
 menu-not-found: '&cMenu not found! Please inform the staff.'
 no-money: '&cYou need {money}$ for this.'
