@@ -1,1 +1,1 @@
-Добро пожаловать {PLAYER} , на сервере &f&lMine&c&lRose
+&fДобро пожаловать &c{PLAYER} &f, на сервере &f&lMine&c&lRose
