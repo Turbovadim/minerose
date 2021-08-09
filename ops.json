@@ -4,5 +4,11 @@
     "name": "Ne_Rubychka",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "26396817-44c4-3026-95ae-c846ed4fb291",
+    "name": "_TurboYouTube_",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

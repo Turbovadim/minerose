@@ -1,0 +1,41 @@
+Groups:
+  default:
+    Permission: nte.default
+    Prefix: '&7[Игрок] &7'
+    Suffix: ''
+    SortPriority: 2
+  gold:
+    Permission: nte.gold
+    Prefix: '&7[&eЗолото&7] &7'
+    Suffix: ''
+    SortPriority: 3
+  diamond:
+    Permission: nte.diamond
+    Prefix: '&7[&bАлмаз&7] &7'
+    Suffix: ''
+    SortPriority: 4
+  emerald:
+    Permission: nte.emerald
+    Prefix: '&7[&aИзумруд&7] &7'
+    Suffix: ''
+    SortPriority: 5
+  netherite:
+    Permission: nte.netherite
+    Prefix: '&7[&5Незерит&7] &7'
+    Suffix: ''
+    SortPriority: 6
+  pelmeshka:
+    Permission: nte.pelmeshka
+    Prefix: '&7[&dПельмешка&7] &7'
+    Suffix: ''
+    SortPriority: 7
+  moder:
+    Permission: nte.moder
+    Prefix: '&7[&9Модератор&7] &7'
+    Suffix: ''
+    SortPriority: 8
+  Admin:
+    Permission: nte.admin
+    Prefix: '&7[&cХостинг&7] &7'
+    Suffix: ''
+    SortPriority: 9

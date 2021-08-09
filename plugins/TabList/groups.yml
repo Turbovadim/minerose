@@ -37,7 +37,3 @@ groups:
     prefix: '&7[&5Незерит&7] &7'
     tabname: '%player%'
     suffix: ''
-  PlayerName:
-    prefix: '&a[MyGroup] &7'
-    tabname: '%player%'
-    suffix: ''

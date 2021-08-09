@@ -39,8 +39,3 @@ permissions:
             permissions:
             - '*'
     users:
-        sk89q:
-            permissions:
-            - worldedit
-            groups:
-            - admins

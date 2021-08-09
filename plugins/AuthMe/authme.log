@@ -389,3 +389,105 @@
 [08-09 19:51:22]: [FINE] §7§aNe_Rubychka§7, turba.
 [08-09 19:51:22]: [FINE] Ne_Rubychka logged in 127.0.0.1
 [08-09 20:39:37]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[08-09 22:45:49]: [INFO] SQLite Setup finished
+[08-09 22:45:49]: [INFO] Hooked into LuckPerms!
+[08-09 22:45:49]: [INFO] Hooked successfully into Essentials
+[08-09 22:45:49]: [INFO] Essentials spawn file not found: 'C:\Users\yolki\Desktop\minerose\plugins\Essentials\spawn.yml'
+[08-09 22:45:49]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[08-09 22:45:50]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[08-09 22:45:50]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[08-09 22:45:50]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[08-09 22:45:50]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[08-09 22:45:50]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[08-09 22:45:50]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:343)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:258)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:213)
+	at AuthMe-5.6.0-beta2.jar//fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at AuthMe-5.6.0-beta2.jar//fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at AuthMe-5.6.0-beta2.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at AuthMe-5.6.0-beta2.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+[08-09 22:46:24]: [FINE] _TurboYouTube_ registered 127.0.0.1
+[08-09 22:46:24]: [FINE] The user _TurboYouTube_ has 3 accounts:
+[08-09 22:46:24]: [FINE] §7ne_rubychka, turba, §a_TurboYouTube_§7.
+[08-09 22:46:24]: [FINE] _TurboYouTube_ logged in 127.0.0.1
+[08-10 00:44:00]: [INFO] turba was unregistered by _TurboYouTube_
+[08-10 00:51:53]: [FINE] turba registered 127.0.0.1
+[08-10 00:51:53]: [FINE] The user turba has 3 accounts:
+[08-10 00:51:53]: [FINE] §7ne_rubychka, §a_TurboYouTube_§7, §aturba§7.
+[08-10 00:51:53]: [FINE] turba logged in 127.0.0.1
+[08-10 00:52:45]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[08-10 00:53:21]: [INFO] SQLite Setup finished
+[08-10 00:53:21]: [INFO] Hooked into LuckPerms!
+[08-10 00:53:21]: [INFO] Hooked successfully into Essentials
+[08-10 00:53:21]: [INFO] Essentials spawn file not found: 'C:\Users\yolki\Desktop\minerose\plugins\Essentials\spawn.yml'
+[08-10 00:53:21]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[08-10 00:53:21]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[08-10 00:53:21]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[08-10 00:53:21]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[08-10 00:53:21]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[08-10 00:53:21]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[08-10 00:53:21]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:343)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:258)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:213)
+	at AuthMe-5.6.0-beta2.jar//fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at AuthMe-5.6.0-beta2.jar//fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at AuthMe-5.6.0-beta2.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at AuthMe-5.6.0-beta2.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+[08-10 00:53:40]: [FINE] The user turba has 3 accounts:
+[08-10 00:53:40]: [FINE] §7ne_rubychka, _turboyoutube_, §aturba§7.
+[08-10 00:53:40]: [FINE] turba logged in 127.0.0.1
+[08-10 00:53:52]: [FINE] The user _TurboYouTube_ has 3 accounts:
+[08-10 00:53:52]: [FINE] §7ne_rubychka, §a_TurboYouTube_§7, §aturba§7.
+[08-10 00:53:52]: [FINE] _TurboYouTube_ logged in 127.0.0.1
+[08-10 00:55:03]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[08-10 00:55:08]: [INFO] SQLite Setup finished
+[08-10 00:55:08]: [INFO] Hooked into LuckPerms!
+[08-10 00:55:08]: [INFO] Hooked successfully into Essentials
+[08-10 00:55:08]: [INFO] Essentials spawn file not found: 'C:\Users\yolki\Desktop\minerose\plugins\Essentials\spawn.yml'
+[08-10 00:55:08]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[08-10 00:55:08]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[08-10 00:55:08]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[08-10 00:55:08]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[08-10 00:55:08]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[08-10 00:55:08]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[08-10 00:55:08]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:343)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:258)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:213)
+	at AuthMe-5.6.0-beta2.jar//fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at AuthMe-5.6.0-beta2.jar//fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at AuthMe-5.6.0-beta2.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at AuthMe-5.6.0-beta2.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+[08-10 00:55:20]: [FINE] The user _TurboYouTube_ has 3 accounts:
+[08-10 00:55:20]: [FINE] §7ne_rubychka, §a_TurboYouTube_§7, §aturba§7.
+[08-10 00:55:20]: [FINE] _TurboYouTube_ logged in 127.0.0.1
+[08-10 00:55:29]: [FINE] The user turba has 3 accounts:
+[08-10 00:55:29]: [FINE] §7ne_rubychka, §a_TurboYouTube_§7, §aturba§7.
+[08-10 00:55:29]: [FINE] turba logged in 127.0.0.1
+[08-10 01:26:34]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
