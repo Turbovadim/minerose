@@ -411,7 +411,7 @@ notifications:
   # Title notifications.
   title:
     # On/off title notifications.
-    enable: true
+    enable: false
 
     # Notification lists.
     lists:
