@@ -48,34 +48,41 @@ menu-settings:
 ######################
 
 
-spawn-command:
-  MATERIAL: enderpearl
-  POSITION-X: 1
-  POSITION-Y: 1
-  NAME: '&e/spawn'
-  LORE:
-    - 'Makes the player run the /spawn command.'
-  ACTIONS:
-    - 'spawn'
-
 
 gold:
   MATERIAL: yellow stained glass
   POSITION-X: 3
   POSITION-Y: 2
-  NAME: '&eЗолото - 70 руб.'
+  NAME: '&eЗолото - 26 руб.'
   LORE:
-    - 'Описание'
-
-
-enchanted-sword:
-  MATERIAL: diamond sword
-  POSITION-X: 3
-  POSITION-Y: 1
-  NAME: '&aEnchanted sword'
+  - '╔══'
+  - '║ Префикс &e[Золото]&7 в чате/табе/над головой'
+  - '║ Одеть любой блок на голову - &e/hat'
+  - '║ Включить режим АФК - &e/afk'
+  - '║ Открыть личный верстак - &e/workbench'
+  - '║ Открыть личный эндер сундук - &e/ec'
+  - '╠══'
+  - '║ ❏ Набор Золота - &e/kit gold'
+  - '║ ❏ Дополнительных слотов на аукционе - &e+2'
+  - '║ ❏ Доступных точек дома - &e+1'
+  - '║ ❏ Доступно 2 региона для привата - &e/rg claim'
+  - '╚══'
+  
+diamond:
+  MATERIAL: light blue stained glass
+  POSITION-X: 4
+  POSITION-Y: 2
+  NAME: '&bАлмаз - 56 руб.'
   LORE:
-    - 'This sword has a glowing effects.'
-  ENCHANTMENTS:
-    - durability, 1
+  - '╔══'
+  - '║ Префикс &b[Алмаз]&7 в чате/табе/над головой'
+  - '║ Найти игроков поблизости - /near'
+  - '║ Игнорировать игрока - ignore'
+  - '╠══'
+  - '║ ❏ Набор Алмаза - &b/kit diamond'
+  - '║ ❏ Доступных точек дома - &b+2'
+  - '║ ❏ Доступно 2 региона для привата - &b/rg claim'
+  - '╚══'
+
 
 

@@ -1,0 +1,4 @@
+July 9 2021 (4:43:24) - Illegal stack of items removed: STONE_SWORD (2) from player: Ne_Rubychka at item scan.
+July 9 2021 (4:43:24) - Illegal stack of items removed: GOLDEN_BOOTS (2) from player: Ne_Rubychka at item scan.
+July 9 2021 (4:43:24) - Illegal stack of items removed: IRON_PICKAXE (2) from player: Ne_Rubychka at item scan.
+July 9 2021 (4:43:24) - Illegal stack of items removed: STONE_AXE (2) from player: Ne_Rubychka at item scan.
