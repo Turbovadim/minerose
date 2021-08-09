@@ -594,7 +594,7 @@ miscellaneous:
       enable: true
 
       # Set to '' if you want to make it hidden.
-      message: '&8> &e{prefix}{player}{suffix} &ejoined the server.'
+      message: '&e[+] {player}'
 
       # Plays sound to all, when player joins.
       # Remove the line if not needed.
@@ -608,7 +608,7 @@ miscellaneous:
       first-join:
         # First join message.
         # Set to '' if you don't want to see special message for the first join.
-        message: '&8> &e{prefix}{player}{suffix} &6joined the server for the first time!'
+        message: '&8> &e{prefix}{player}{suffix} &6зашел на сервер первый раз! Поприветствуем.!'
         # Plays sound to all, when player joins.
         # Remove the line if not needed.
         sound: ORB_PICKUP
@@ -617,7 +617,7 @@ miscellaneous:
       enable: true
 
       # Set to '' if you want to make it hidden.
-      message: '&8> &e{prefix}{player}{suffix} &eleft the server.'
+      message: '&e[-] {player}'
 
       # Plays sound to all, when player quits.
       # Remove the line if not needed.
@@ -628,7 +628,7 @@ miscellaneous:
       permission: false
 
     death:
-      enable: true
+      enable: false
 
       # Set to '' if you want to make it hidden.
       message: '&8> &e{prefix}{player}{suffix} &edied.'
