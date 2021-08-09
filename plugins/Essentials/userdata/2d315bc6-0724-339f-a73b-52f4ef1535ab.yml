@@ -1,7 +1,7 @@
 lastAccountName: Ne_Rubychka
 timestamps:
-  login: 1628516642903
-  logout: 1628520441463
+  login: 1628527882788
+  logout: 1628530778339
   lastteleport: 1628517914754
   kits:
     gold: 1628518975105
@@ -12,15 +12,24 @@ timestamps:
 ipAddress: 127.0.0.1
 lastlocation:
   world: world
-  x: 321.05076644596573
-  y: 72.0
-  z: 192.17056926002277
-  yaw: 3.9508667
-  pitch: 31.87135
+  x: 372.5290319134341
+  y: 69.0
+  z: 294.9977393534507
+  yaw: 79.06119
+  pitch: -6.1686325
 logoutlocation:
   world: world
-  x: -379.9615524477677
-  y: 70.0
-  z: -99.26816102919732
-  yaw: -86.16778
-  pitch: 15.935342
+  x: 273.23067470824947
+  y: 69.0
+  z: 277.7918337812735
+  yaw: -1.7041055
+  pitch: 14.907616
+afk: false
+homes:
+  home:
+    world: world
+    x: 351.44835077600806
+    y: 72.0
+    z: 333.491661894284
+    yaw: -144.30283
+    pitch: 50.068962

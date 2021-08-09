@@ -335,3 +335,57 @@
 [08-09 17:02:46]: [FINE] §7§aNe_Rubychka§7, §aTurba§7.
 [08-09 17:02:46]: [FINE] Turba logged in 127.0.0.1
 [08-09 17:47:20]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!
+[08-09 19:12:06]: [INFO] SQLite Setup finished
+[08-09 19:12:06]: [INFO] Hooked into LuckPerms!
+[08-09 19:12:07]: [INFO] Hooked successfully into Essentials
+[08-09 19:12:07]: [INFO] Essentials spawn file not found: 'C:\Users\Пользователь\Desktop\minerose\plugins\Essentials\spawn.yml'
+[08-09 19:12:07]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[08-09 19:12:07]: [INFO] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[08-09 19:12:07]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[08-09 19:12:07]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[08-09 19:12:07]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[08-09 19:12:07]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[08-09 19:12:07]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:343)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:258)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:213)
+	at AuthMe-5.6.0-beta2.jar//fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at AuthMe-5.6.0-beta2.jar//fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at AuthMe-5.6.0-beta2.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:173)
+	at AuthMe-5.6.0-beta2.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:144)
+	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftTask.run(CraftTask.java:101)
+	at org.bukkit.craftbukkit.v1_17_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+[08-09 19:16:53]: [FINE] The user Ne_Rubychka has 2 accounts:
+[08-09 19:16:53]: [FINE] §7§aNe_Rubychka§7, turba.
+[08-09 19:16:53]: [FINE] Ne_Rubychka logged in 127.0.0.1
+[08-09 19:40:29]: [FINE] The user Ne_Rubychka has 2 accounts:
+[08-09 19:40:29]: [FINE] §7§aNe_Rubychka§7, turba.
+[08-09 19:40:29]: [FINE] Ne_Rubychka logged in 127.0.0.1
+[08-09 19:40:57]: [FINE] The user Ne_Rubychka has 2 accounts:
+[08-09 19:40:57]: [FINE] §7§aNe_Rubychka§7, turba.
+[08-09 19:40:57]: [FINE] Ne_Rubychka logged in 127.0.0.1
+[08-09 19:42:43]: [FINE] The user Ne_Rubychka has 2 accounts:
+[08-09 19:42:43]: [FINE] §7§aNe_Rubychka§7, turba.
+[08-09 19:42:43]: [FINE] Ne_Rubychka logged in 127.0.0.1
+[08-09 19:43:00]: [FINE] The user Ne_Rubychka has 2 accounts:
+[08-09 19:43:00]: [FINE] §7§aNe_Rubychka§7, turba.
+[08-09 19:43:00]: [FINE] Ne_Rubychka logged in 127.0.0.1
+[08-09 19:43:15]: [FINE] The user Ne_Rubychka has 2 accounts:
+[08-09 19:43:15]: [FINE] §7§aNe_Rubychka§7, turba.
+[08-09 19:43:15]: [FINE] Ne_Rubychka logged in 127.0.0.1
+[08-09 19:43:27]: [FINE] The user Ne_Rubychka has 2 accounts:
+[08-09 19:43:27]: [FINE] §7§aNe_Rubychka§7, turba.
+[08-09 19:43:27]: [FINE] Ne_Rubychka logged in 127.0.0.1
+[08-09 19:43:43]: [FINE] The user Ne_Rubychka has 2 accounts:
+[08-09 19:43:43]: [FINE] §7§aNe_Rubychka§7, turba.
+[08-09 19:43:43]: [FINE] Ne_Rubychka logged in 127.0.0.1
+[08-09 19:51:22]: [FINE] The user Ne_Rubychka has 2 accounts:
+[08-09 19:51:22]: [FINE] §7§aNe_Rubychka§7, turba.
+[08-09 19:51:22]: [FINE] Ne_Rubychka logged in 127.0.0.1
+[08-09 20:39:37]: [INFO] AuthMe 5.6.0-beta2-b2453 disabled!

@@ -50,7 +50,7 @@ menu-settings:
 
 
 gold:
-  MATERIAL: yellow stained glass
+  MATERIAL: gold block
   POSITION-X: 3
   POSITION-Y: 2
   NAME: '&eЗолото - 26 руб.'
@@ -69,20 +69,64 @@ gold:
   - '╚══'
   
 diamond:
-  MATERIAL: light blue stained glass
+  MATERIAL: diamond block
   POSITION-X: 4
   POSITION-Y: 2
   NAME: '&bАлмаз - 56 руб.'
   LORE:
   - '╔══'
   - '║ Префикс &b[Алмаз]&7 в чате/табе/над головой'
-  - '║ Найти игроков поблизости - /near'
-  - '║ Игнорировать игрока - ignore'
+  - '║ Найти игроков поблизости - &b/near'
+  - '║ Игнорировать игрока - &b/ignore'
   - '╠══'
   - '║ ❏ Набор Алмаза - &b/kit diamond'
   - '║ ❏ Доступных точек дома - &b+2'
-  - '║ ❏ Доступно 2 региона для привата - &b/rg claim'
+  - '║ ❏ Доступно 3 региона для привата - &b/rg claim'
+  - '╚══'
+  
+emerald:
+  MATERIAL: emerald block
+  POSITION-X: 5
+  POSITION-Y: 2
+  NAME: '&aИзумруд - 89 руб.'
+  LORE:
+  - '╔══'
+  - '║ Префикс &a[Изумруд]&7 в чате/табе/над головой'
+  - '║ Отключить сообщения - &a/msgtoggle'
+  - '║ Изменить ник - &a/nick'
+  - '╠══'
+  - '║ ❏ Набор Изумруда - &a/kit emerald'
+  - '║ ❏ Доступных точек дома - &a+3'
+  - '║ ❏ Доступно 4 региона для привата - &a/rg claim'
   - '╚══'
 
+netherite:
+  MATERIAL: netherite block
+  POSITION-X: 6
+  POSITION-Y: 2
+  NAME: '&5Незерит - 156 руб.'
+  LORE:
+  - '╔══'
+  - '║ Префикс &5[Незерит]&7 в чате/табе/над головой'
+  - '║ Посмотреть инвентарь игрока - &5/invsee'
+  - '╠══'
+  - '║ ❏ Набор Незерита - &5/kit netherite'
+  - '║ ❏ Доступных точек дома - &5+4'
+  - '║ ❏ Доступно 5 региона для привата - &5/rg claim'
+  
+pelmeshka:
+  MATERIAL: bedrock
+  POSITION-X: 7
+  POSITION-Y: 2
+  NAME: '&dПельмешка - 345 руб.'
+  LORE:
+  - '╔══'
+  - '║ Префикс &d[Пельмешка]&7 в чате/табе/над головой'
+  - '║ Cделать глобальное оповещение - &d/bc'
+  - '║ Отключить телепортации - &d/tptoggle'
+  - '╠══'
+  - '║ ❏ Набор Пельмешка - &d/kit netherite'
+  - '║ ❏ Доступных точек дома - &d+5'
+  - '║ ❏ Доступно 6 региона для привата - &d/rg claim'
 
 
