@@ -1,113 +1,98 @@
-[21:09:45] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:09:45] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[21:09:46] [Worker-Main-2/INFO]: Loaded 7 recipes
-[21:09:48] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[21:09:48] [Server thread/INFO]: Loading properties
-[21:09:48] [Server thread/INFO]: This server is running Paper version git-Paper-166 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT) (Git: b33b639)
-[21:09:48] [Server thread/INFO]: Debug logging is disabled
-[21:09:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:09:48] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:09:48] [Server thread/INFO]: Default game type: SURVIVAL
-[21:09:48] [Server thread/INFO]: Generating keypair
-[21:09:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:09:48] [Server thread/INFO]: Using default channel type
-[21:09:49] [Server thread/ERROR]: [[STDERR] ] org.bukkit.craftbukkit.v1_17_R1.legacy.CraftLegacy Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[21:09:53] [Server thread/WARN]: Legacy plugin MultiMOTD v1.0 does not specify an api-version.
-[21:09:54] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.57
-[21:09:54] [Server thread/INFO]: [IllegalStack] Loading IllegalStack v2.4.2
-[21:09:54] [Server thread/INFO]: [MultiMOTD] Loading MultiMOTD v1.0
-[21:09:54] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[21:09:54] [Server thread/INFO]: [Chatty] Loading Chatty v2.19.4
-[21:09:54] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.6-beta-02+2e45a20
-[21:09:54] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1046c2ed]
-[21:09:54] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.3.1
-[21:09:54] [Server thread/INFO]: [Essentials] Loading Essentials v2.18.2.0
-[21:09:54] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.18.2.0
-[21:09:54] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.18.2.0
-[21:09:54] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.6-beta1+0b66f3e
-[21:09:54] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
-[21:09:54] [Server thread/INFO]: [TabList] Loading TabList v5.5.5
-[21:09:54] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-beta2-b2453
-[21:09:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:09:54] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.57
-[21:09:55] [Server thread/INFO]:         __    
-[21:09:55] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.57
-[21:09:55] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[21:09:55] [Server thread/INFO]: 
-[21:09:55] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[21:09:55] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[21:09:56] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[21:09:56] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[21:09:56] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1528ms)
-[21:09:56] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[21:09:56] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.18.2.0 which is not a depend, softdepend or loadbefore of this plugin.
-[21:09:56] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[21:09:56] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[21:09:56] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[21:09:56] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[21:09:56] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.6-beta-02+2e45a20
-[21:09:56] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:09:56] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[21:09:56] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_17_R1_2 as the Bukkit adapter
-[21:09:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:09:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:09:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:09:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:09:57] [Server thread/INFO]: Preparing level "world"
-[21:09:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:10:01] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[21:10:01] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[21:10:01] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[21:10:01] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[21:10:01] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[21:10:01] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[21:10:01] [Server thread/INFO]: Time elapsed: 2711 ms
-[21:10:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:10:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[21:10:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[21:10:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[21:10:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[21:10:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[21:10:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[21:10:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[21:10:04] [Server thread/INFO]: Time elapsed: 3302 ms
-[21:10:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:10:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[21:10:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[21:10:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[21:10:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[21:10:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[21:10:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[21:10:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[21:10:08] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[21:10:08] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[21:10:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[21:10:09] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[21:10:09] [Server thread/INFO]: Time elapsed: 5227 ms
-[21:10:09] [Server thread/INFO]: [IllegalStack] Enabling IllegalStack v2.4.2
-[21:10:10] [Server thread/INFO]: [IllegalStack/IllegalStack] The following materials are allowed to have stacks larger than the vanilla size: POTION 
-[21:10:11] [Server thread/INFO]: [IllegalStack/IllegalStack] Chat Components found! Enabling clickable commands in /istack
-[21:10:11] [Server thread/WARN]: [IllegalStack/IllegalStack] ProtocolLib NOT FOUND!!!! and DisableChestsOnMobs protection is turned on.. It may still be possible for players to dupe using horses/donkeys on your server using a hacked client.  It is highly recommended that you install ProtocolLib for optimal protection!
-[21:10:11] [Server thread/INFO]: [IllegalStack/fListener] MC Version v1_17_r1 detected!
-[21:10:11] [Server thread/INFO]: [IllegalStack/Listener113] Enabling 1.13+ Checks
-[21:10:11] [Server thread/INFO]: [IllegalStack/IllegalStack] ZombieVillagerTransformChance is set to 65 *** Only really matters if the difficulty is set to HARD ***
-[21:10:11] [Server thread/INFO]: [MultiMOTD] Enabling MultiMOTD v1.0*
-[21:10:11] [Server thread/INFO]: [Chatty] Enabling Chatty v2.19.4
-[21:10:11] [Server thread/INFO]: [Chatty] Vault has successful hooked.
-[21:10:11] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.3.1
-[21:10:11] [Server thread/INFO]: [Essentials] Enabling Essentials v2.18.2.0
-[21:10:11] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[21:10:12] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[21:10:12] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[21:10:12] [Server thread/INFO]: [Essentials] Loaded 25599 items from items.json.
-[21:10:12] [Server thread/INFO]: [Essentials] Using locale ru_RU
-[21:10:12] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[21:10:12] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[21:10:12] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[21:10:12] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[21:10:12] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.18.2.0
-[21:10:12] [Server thread/ERROR]: [EssentialsGeoIP] Ключ лицензии не найден! Инструкцию по настройке вы можете найти на сайте https://essentialsx.cf/geoip.
-[21:10:12] [Server thread/ERROR]: [EssentialsGeoIP] Ошибка при чтении базы данных GeoIP!
+[10:23:12] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:23:12] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[10:23:14] [Worker-Main-3/INFO]: Loaded 7 recipes
+[10:23:16] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[10:23:16] [Server thread/INFO]: Loading properties
+[10:23:16] [Server thread/INFO]: This server is running Paper version git-Paper-166 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT) (Git: b33b639)
+[10:23:16] [Server thread/INFO]: Debug logging is disabled
+[10:23:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:23:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:23:16] [Server thread/INFO]: Default game type: SURVIVAL
+[10:23:16] [Server thread/INFO]: Generating keypair
+[10:23:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:23:16] [Server thread/INFO]: Using default channel type
+[10:23:17] [Server thread/ERROR]: [[STDERR] ] org.bukkit.craftbukkit.v1_17_R1.legacy.CraftLegacy Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[10:23:22] [Server thread/WARN]: Legacy plugin MultiMOTD v1.0 does not specify an api-version.
+[10:23:22] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.57
+[10:23:22] [Server thread/INFO]: [IllegalStack] Loading IllegalStack v2.4.2
+[10:23:22] [Server thread/INFO]: [MultiMOTD] Loading MultiMOTD v1.0
+[10:23:22] [Server thread/INFO]: [NametagEdit] Loading NametagEdit v4.5.0
+[10:23:22] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[10:23:22] [Server thread/INFO]: [Chatty] Loading Chatty v2.19.4
+[10:23:22] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.6-beta-02+2e45a20
+[10:23:23] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@43251ac6]
+[10:23:23] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.3.1
+[10:23:23] [Server thread/INFO]: [Essentials] Loading Essentials v2.18.2.0
+[10:23:23] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.18.2.0
+[10:23:23] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.18.2.0
+[10:23:23] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.6-beta1+0b66f3e
+[10:23:23] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.1
+[10:23:23] [Server thread/INFO]: [TabList] Loading TabList v5.5.5
+[10:23:23] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-beta2-b2453
+[10:23:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:23:23] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.57
+[10:23:23] [Server thread/INFO]:         __    
+[10:23:23] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.57
+[10:23:23] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[10:23:23] [Server thread/INFO]: 
+[10:23:23] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[10:23:23] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[10:23:24] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[10:23:24] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[10:23:24] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1636ms)
+[10:23:24] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[10:23:24] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.18.2.0 which is not a depend, softdepend or loadbefore of this plugin.
+[10:23:24] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[10:23:24] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[10:23:24] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[10:23:24] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[10:23:24] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.6-beta-02+2e45a20
+[10:23:24] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[10:23:24] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[10:23:25] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_17_R1_2 as the Bukkit adapter
+[10:23:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:23:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:23:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:23:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:23:26] [Server thread/INFO]: Preparing level "world"
+[10:23:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:23:30] [Server thread/INFO]: Time elapsed: 2641 ms
+[10:23:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:23:32] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:23:32] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:23:32] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:23:32] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:23:32] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:23:32] [Server thread/INFO]: Time elapsed: 2459 ms
+[10:23:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:23:36] [Server thread/INFO]: Time elapsed: 3541 ms
+[10:23:36] [Server thread/INFO]: [IllegalStack] Enabling IllegalStack v2.4.2
+[10:23:36] [Server thread/INFO]: [IllegalStack/IllegalStack] The following materials are allowed to have stacks larger than the vanilla size: POTION 
+[10:23:36] [Server thread/INFO]: [IllegalStack/IllegalStack] Chat Components found! Enabling clickable commands in /istack
+[10:23:36] [Server thread/WARN]: [IllegalStack/IllegalStack] ProtocolLib NOT FOUND!!!! and DisableChestsOnMobs protection is turned on.. It may still be possible for players to dupe using horses/donkeys on your server using a hacked client.  It is highly recommended that you install ProtocolLib for optimal protection!
+[10:23:36] [Server thread/INFO]: [IllegalStack/fListener] MC Version v1_17_r1 detected!
+[10:23:36] [Server thread/INFO]: [IllegalStack/Listener113] Enabling 1.13+ Checks
+[10:23:36] [Server thread/INFO]: [IllegalStack/IllegalStack] ZombieVillagerTransformChance is set to 65 *** Only really matters if the difficulty is set to HARD ***
+[10:23:36] [Server thread/INFO]: [MultiMOTD] Enabling MultiMOTD v1.0*
+[10:23:36] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.5.0
+[10:23:36] [Server thread/INFO]: [NametagEdit] Found LuckPerms! Hooking in.
+[10:23:36] [Server thread/INFO]: [Chatty] Enabling Chatty v2.19.4
+[10:23:36] [Server thread/INFO]: [Chatty] Vault has successful hooked.
+[10:23:36] [Server thread/INFO]: [Chatty] NametagEdit has successful hooked.
+[10:23:36] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.3.1
+[10:23:37] [Server thread/INFO]: [Essentials] Enabling Essentials v2.18.2.0
+[10:23:37] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[10:23:37] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[10:23:37] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[10:23:38] [Server thread/INFO]: [Essentials] Loaded 25599 items from items.json.
+[10:23:38] [Server thread/INFO]: [Essentials] Using locale ru_RU
+[10:23:38] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[10:23:38] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[10:23:38] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[10:23:38] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[10:23:38] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.18.2.0
+[10:23:38] [Server thread/ERROR]: [EssentialsGeoIP] Ключ лицензии не найден! Инструкцию по настройке вы можете найти на сайте https://essentialsx.cf/geoip.
+[10:23:38] [Server thread/ERROR]: [EssentialsGeoIP] Ошибка при чтении базы данных GeoIP!
 java.io.FileNotFoundException: plugins\EssentialsGeoIP\GeoIP2-Country.mmdb (Не удается найти указанный файл)
 	at java.io.RandomAccessFile.open0(Native Method) ~[?:?]
 	at java.io.RandomAccessFile.open(RandomAccessFile.java:343) ~[?:?]
@@ -131,230 +116,240 @@ java.io.FileNotFoundException: plugins\EssentialsGeoIP\GeoIP2-Country.mmdb (Не у
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1126) ~[patched_1.17.1.jar:git-Paper-166]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[patched_1.17.1.jar:git-Paper-166]
 	at java.lang.Thread.run(Thread.java:831) [?:?]
-[21:10:12] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
-[21:10:12] [Server thread/INFO]: [EssentialsGeoIP] Starting Metrics. Opt-out using the global bStats config.
-[21:10:12] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.18.2.0
-[21:10:12] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[21:10:12] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.6-beta1+0b66f3e
-[21:10:13] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[21:10:13] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[21:10:13] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[21:10:13] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[21:10:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[21:10:13] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[21:10:13] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[21:10:13] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[21:10:13] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[21:10:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[21:10:13] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[21:10:13] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[21:10:13] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[21:10:13] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[21:10:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[21:10:13] [Server thread/INFO]: [WorldGuard] Loading region data...
-[21:10:13] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
-[21:10:13] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
-[21:10:13] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-[21:10:13] [Server thread/INFO]: --------------------
-[21:10:13] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[21:10:13] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[21:10:13] [Server thread/INFO]: --------------------
-[21:10:13] [Server thread/INFO]: [TabList] Enabling TabList v5.5.5
-[21:10:13] [Server thread/INFO]: [TabList] > Enabled v5.5.5! (71ms)
-[21:10:13] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-beta2-b2453
-[21:10:13] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[21:10:14] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
-[21:10:14] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
-[21:10:14] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: 'C:\Users\Пользователь\Desktop\minerose\plugins\Essentials\spawn.yml'
-[21:10:14] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
-[21:10:14] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
-[21:10:14] [Server thread/INFO]: Running delayed init tasks
-[21:10:14] [Craft Scheduler Thread - 5/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
-[21:10:14] [Craft Scheduler Thread - 5/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
-[21:10:14] [Craft Scheduler Thread - 5/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
-[21:10:14] [Craft Scheduler Thread - 5/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
-[21:10:14] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
-[21:10:14] [Server thread/INFO]: [ChestCommands] Found a new version: v4.0.3 (yours: v3.3.1)
-[21:10:14] [Server thread/INFO]: [ChestCommands] Download it on Bukkit Dev:
-[21:10:14] [Server thread/INFO]: [ChestCommands] dev.bukkit.org/bukkit-plugins/chest-commands
-[21:10:14] [Server thread/INFO]: Done (26.538s)! For help, type "help"
-[21:10:14] [Server thread/INFO]: Timings Reset
-[21:10:14] [Craft Scheduler Thread - 8/INFO]: [Vault] Checking for Updates ... 
-[21:10:15] [Craft Scheduler Thread - 8/WARN]: [Vault] No files found, or Feed URL is bad.
-[21:10:15] [Craft Scheduler Thread - 8/INFO]: [Vault] No new version available
-[21:10:22] [User Authenticator #1/INFO]: UUID of player Ne_Rubychka is 2d315bc6-0724-339f-a73b-52f4ef1535ab
-[21:10:23] [Server thread/INFO]: [+] Ne_Rubychka
-[21:10:23] [Server thread/INFO]: Ne_Rubychka[/127.0.0.1:55986] logged in with entity id 207 at ([world]372.5290319134341, 69.0, 294.9977393534507)
-[21:10:30] [Craft Scheduler Thread - 5/INFO]: [AuthMe] The user Ne_Rubychka has 2 accounts:
-[21:10:30] [Craft Scheduler Thread - 5/INFO]: [AuthMe] Ne_Rubychka, turba.
-[21:10:30] [Craft Scheduler Thread - 5/INFO]: [AuthMe] Ne_Rubychka logged in 127.0.0.1
-[21:11:03] [luckperms-command-executor/INFO]: [LP] Подготовка новой сессии веб-редактора, пожалуйста, подождите...
-[21:11:03] [luckperms-command-executor/INFO]: [LP] Нажмите на ссылку ниже, чтобы открыть веб-редактор:
-[21:11:03] [luckperms-command-executor/INFO]: https://luckperms.net/editor/yxJyzgXujR
-[21:11:28] [luckperms-command-executor/INFO]: [LP] Данные веб-редактора были успешно применены к user ne_rubychka.
-[21:11:28] [luckperms-command-executor/INFO]: [LP] (1 дополнение и 0 удалений)
-[21:11:28] [luckperms-command-executor/INFO]: +  * (true)
-[21:11:48] [Server thread/INFO]: Ne_Rubychka issued server command: /lp user Ne_Rubychka parent set admin
-[21:11:48] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [U] (ne_rubychka)
-[21:11:48] [luckperms-command-executor/INFO]: [LP] ЛОГ > parent set admin
-[21:11:51] [Async Chat Thread - #0/INFO]: [L] [Хостинг] Ne_Rubychka: d
-[21:12:41] [Server thread/INFO]: Ne_Rubychka issued server command: /lp user Ne_Rubychka parent set diamond
-[21:12:41] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [U] (ne_rubychka)
-[21:12:41] [luckperms-command-executor/INFO]: [LP] ЛОГ > parent set diamond
-[21:12:43] [Async Chat Thread - #0/INFO]: [L] [Алмаз] Ne_Rubychka: d
-[21:12:46] [Server thread/INFO]: Ne_Rubychka issued server command: /lp user Ne_Rubychka parent set gold
-[21:12:46] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [U] (ne_rubychka)
-[21:12:46] [luckperms-command-executor/INFO]: [LP] ЛОГ > parent set gold
-[21:12:48] [Async Chat Thread - #0/INFO]: [L] [Золото] Ne_Rubychka: dd
-[21:13:09] [Server thread/INFO]: Ne_Rubychka issued server command: /lp user Ne_Rubychka parent set admin
-[21:13:09] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [U] (ne_rubychka)
-[21:13:09] [luckperms-command-executor/INFO]: [LP] ЛОГ > parent set admin
-[21:13:13] [Server thread/INFO]: Ne_Rubychka issued server command: /donate
-[21:22:10] [Server thread/INFO]: Ne_Rubychka issued server command: /spawn
-[21:23:34] [Server thread/INFO]: Ne_Rubychka issued server command: //wand
-[21:23:48] [Server thread/INFO]: Ne_Rubychka issued server command: //expand 10 d
-[21:23:50] [Server thread/INFO]: Ne_Rubychka issued server command: //regen
-[21:24:14] [Server thread/WARN]: Ne_Rubychka moved too quickly! 9.76110784850016,1.5930381191942473,-4.658446570489171
-[21:24:24] [Server thread/INFO]: Ne_Rubychka issued server command: /snow
-[21:24:33] [Server thread/INFO]: Ne_Rubychka issued server command: /snow
-[21:24:39] [Server thread/INFO]: Ne_Rubychka issued server command: /undo
-[21:24:40] [Server thread/INFO]: Ne_Rubychka issued server command: /undo
-[21:25:40] [Server thread/INFO]: Villager EntityVillager['Villager'/4175, uuid='7d1b8fbf-30b5-4dee-bb85-ec21622ee1a3', l='ServerLevel[world]', x=610.66, y=70.00, z=-219.15, cpos=[38, -14], tl=953, v=true, rR=null] died, message: 'Villager was slain by Zombie'
-[21:26:55] [Server thread/INFO]: Ne_Rubychka issued server command: /kit pelmeshka
-[21:27:00] [Server thread/INFO]: Ne_Rubychka issued server command: /kit pelmeshka
-[21:27:01] [Server thread/INFO]: Ne_Rubychka issued server command: /kit pelmeshka
-[21:27:02] [Server thread/INFO]: Ne_Rubychka issued server command: /kit pelmeshka
-[21:27:03] [Server thread/INFO]: [IllegalStack/Log] Illegal stack of items removed: IRON_SWORD (3) from player: Ne_Rubychka at item scan.
-[21:27:03] [Server thread/INFO]: [IllegalStack/Log] Illegal stack of items removed: IRON_PICKAXE (3) from player: Ne_Rubychka at item scan.
-[21:27:03] [Server thread/INFO]: [IllegalStack/Log] Illegal stack of items removed: IRON_AXE (3) from player: Ne_Rubychka at item scan.
-[21:27:03] [Server thread/INFO]: [IllegalStack/Log] Illegal stack of items removed: IRON_SHOVEL (3) from player: Ne_Rubychka at item scan.
-[21:27:03] [Server thread/INFO]: [IllegalStack/Log] Illegal stack of items removed: NETHERITE_HOE (3) from player: Ne_Rubychka at item scan.
-[21:27:03] [Server thread/INFO]: [IllegalStack/Log] Illegal stack of items removed: BOW (3) from player: Ne_Rubychka at item scan.
-[21:27:03] [Server thread/INFO]: [IllegalStack/Log] Illegal stack of items removed: SHIELD (3) from player: Ne_Rubychka at item scan.
-[21:27:03] [Server thread/INFO]: [IllegalStack/Log] Illegal stack of items removed: CHAINMAIL_HELMET (3) from player: Ne_Rubychka at item scan.
-[21:27:03] [Server thread/INFO]: [IllegalStack/Log] Illegal stack of items removed: CHAINMAIL_CHESTPLATE (3) from player: Ne_Rubychka at item scan.
-[21:27:03] [Server thread/INFO]: [IllegalStack/Log] Illegal stack of items removed: CHAINMAIL_LEGGINGS (3) from player: Ne_Rubychka at item scan.
-[21:27:03] [Server thread/INFO]: [IllegalStack/Log] Illegal stack of items removed: DIAMOND_BOOTS (3) from player: Ne_Rubychka at item scan.
-[21:30:02] [Server thread/INFO]: Ne_Rubychka issued server command: /lp editor
-[21:30:41] [Server thread/INFO]: Ne_Rubychka issued server command: /lp applyedits IEqsNxkw4S
-[21:30:41] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
-[21:30:41] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add essentials.sethome.multiple.default true
-[21:30:53] [Server thread/INFO]: Ne_Rubychka issued server command: /lp applyedits 4ElAtQ44We
-[21:30:53] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [U] (ne_rubychka)
-[21:30:53] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor remove * true
-[21:31:05] [Server thread/INFO]: Ne_Rubychka issued server command: /lp user Ne_Rubychka parent set default
-[21:31:05] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [U] (ne_rubychka)
-[21:31:05] [luckperms-command-executor/INFO]: [LP] ЛОГ > parent set default
-[21:31:12] [Server thread/INFO]: Ne_Rubychka issued server command: /sethome 1
-[21:31:18] [Server thread/INFO]: Ne_Rubychka issued server command: /sethome 2
-[21:31:20] [Server thread/INFO]: Ne_Rubychka issued server command: /sethome
-[21:31:23] [Server thread/INFO]: Ne_Rubychka issued server command: /sethome 2
-[21:31:25] [Server thread/INFO]: Ne_Rubychka issued server command: /sethome ff
-[21:31:26] [Server thread/INFO]: Ne_Rubychka issued server command: /
-[21:31:27] [Server thread/INFO]: Ne_Rubychka issued server command: /sethome ffd
-[21:31:29] [Server thread/INFO]: Ne_Rubychka issued server command: /sethome ffdd
-[21:31:42] [Server thread/INFO]: Ne_Rubychka issued server command: /deop Ne_Rubychka
-[21:31:42] [Server thread/INFO]: [Ne_Rubychka: Made Ne_Rubychka no longer a server operator]
-[21:31:50] [Server thread/INFO]: Ne_Rubychka issued server command: /sethome 2
-[21:33:48] [luckperms-command-executor/INFO]: [LP] Данные веб-редактора были успешно применены к group moder.
-[21:33:48] [luckperms-command-executor/INFO]: [LP] (1 дополнение и 0 удалений)
-[21:33:48] [luckperms-command-executor/INFO]: +  essentials.sethome.multiple.moder (true)
-[21:33:48] [luckperms-command-executor/INFO]: [LP] Данные веб-редактора были успешно применены к group pelmeshka.
-[21:33:48] [luckperms-command-executor/INFO]: [LP] (1 дополнение и 0 удалений)
-[21:33:48] [luckperms-command-executor/INFO]: +  essentials.sethome.multiple.pelmeshka (true)
-[21:33:48] [luckperms-command-executor/INFO]: [LP] Данные веб-редактора были успешно применены к group netherite.
-[21:33:48] [luckperms-command-executor/INFO]: [LP] (1 дополнение и 0 удалений)
-[21:33:48] [luckperms-command-executor/INFO]: +  essentials.sethome.multiple.netherite (true)
-[21:33:48] [luckperms-command-executor/INFO]: [LP] Данные веб-редактора были успешно применены к group emerald.
-[21:33:48] [luckperms-command-executor/INFO]: [LP] (1 дополнение и 0 удалений)
-[21:33:48] [luckperms-command-executor/INFO]: +  essentials.sethome.multiple.emerald (true)
-[21:33:48] [luckperms-command-executor/INFO]: [LP] Данные веб-редактора были успешно применены к group diamond.
-[21:33:48] [luckperms-command-executor/INFO]: [LP] (1 дополнение и 0 удалений)
-[21:33:48] [luckperms-command-executor/INFO]: +  essentials.sethome.multiple.diamond (true)
-[21:33:48] [luckperms-command-executor/INFO]: [LP] Данные веб-редактора были успешно применены к group gold.
-[21:33:48] [luckperms-command-executor/INFO]: [LP] (1 дополнение и 0 удалений)
-[21:33:48] [luckperms-command-executor/INFO]: +  essentials.sethome.multiple.gold (true)
-[21:33:48] [luckperms-command-executor/INFO]: [LP] Данные веб-редактора были успешно применены к user ne_rubychka.
-[21:33:48] [luckperms-command-executor/INFO]: [LP] (1 дополнение и 1 удаление)
-[21:33:48] [luckperms-command-executor/INFO]: +  group.admin (true)
-[21:33:48] [luckperms-command-executor/INFO]: -  group.default (true)
-[21:34:40] [luckperms-command-executor/INFO]: [LP] Ранее установленные родительские группы ne_rubychka очищены и теперь этот пользователь наследует только emerald в контексте global.
-[21:34:47] [Server thread/INFO]: Ne_Rubychka issued server command: /sethome 1
-[21:43:07] [luckperms-command-executor/INFO]: [LP] Данные веб-редактора были успешно применены к group default.
-[21:43:07] [luckperms-command-executor/INFO]: [LP] (10 добавлений и 0 удалений)
-[21:43:07] [luckperms-command-executor/INFO]: +  essentials.w (true)
-[21:43:07] [luckperms-command-executor/INFO]: +  essentials.m (true)
-[21:43:07] [luckperms-command-executor/INFO]: +  essentials.tell (true)
-[21:43:07] [luckperms-command-executor/INFO]: +  worldedit.wand (true)
-[21:43:07] [luckperms-command-executor/INFO]: +  essentials.tpacancel (true)
-[21:43:07] [luckperms-command-executor/INFO]: +  essentials.spawn (true)
-[21:43:07] [luckperms-command-executor/INFO]: +  essentials.warp (true)
-[21:43:07] [luckperms-command-executor/INFO]: +  essentials.delhome (true)
-[21:43:07] [luckperms-command-executor/INFO]: +  essentials.tpyes (true)
-[21:43:07] [luckperms-command-executor/INFO]: +  essentials.tpaccept (true)
-[21:43:07] [luckperms-command-executor/INFO]: [LP] Данные веб-редактора были успешно применены к user ne_rubychka.
-[21:43:07] [luckperms-command-executor/INFO]: [LP] (1 дополнение и 1 удаление)
-[21:43:07] [luckperms-command-executor/INFO]: +  group.admin (true)
-[21:43:07] [luckperms-command-executor/INFO]: -  group.emerald (true)
-[21:43:17] [Server thread/INFO]: Ne_Rubychka issued server command: /lp editor
-[21:54:58] [Server thread/INFO]: Ne_Rubychka issued server command: /lp applyedits JY29GbuRUH
-[21:54:59] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
-[21:54:59] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldguard.region.wand true
-[21:54:59] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
-[21:54:59] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldguard.region.addmember.own.* true
-[21:54:59] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
-[21:54:59] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldguard.region.info. true
-[21:54:59] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
-[21:54:59] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldguard.region.removemember.own.* true
-[21:54:59] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
-[21:54:59] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldguard.region.list.own true
-[21:54:59] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
-[21:54:59] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldguard.region.remove.own.* true
-[21:54:59] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
-[21:54:59] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldguard.region.flag.flags.pvp.* true
-[21:54:59] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
-[21:54:59] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldguard.region.removeowner.own.* true
-[21:54:59] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
-[21:54:59] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldguard.region.flag.regions.own.* true
-[21:55:15] [Server thread/INFO]: Saving the game (this may take a moment!)
-[21:55:15] [Server thread/INFO]: Saved the game
-[21:55:18] [Server thread/INFO]: Stopping the server
-[21:55:18] [Server thread/INFO]: Stopping server
-[21:55:18] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-beta2-b2453
-[21:55:18] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
-[21:55:18] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-beta2-b2453 disabled!
-[21:55:18] [Server thread/INFO]: [TabList] Disabling TabList v5.5.5
-[21:55:18] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
-[21:55:18] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
-[21:55:19] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v20.1
-[21:55:19] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.6-beta1+0b66f3e
-[21:55:19] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[21:55:19] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.18.2.0
-[21:55:19] [Server thread/INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.18.2.0
-[21:55:19] [Server thread/INFO]: [Essentials] Disabling Essentials v2.18.2.0
-[21:55:19] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[21:55:19] [Server thread/INFO]: [ChestCommands] Disabling ChestCommands v3.3.1
-[21:55:19] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.6-beta-02+2e45a20
-[21:55:19] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:55:19] [Server thread/INFO]: [Chatty] Disabling Chatty v2.19.4
-[21:55:19] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[21:55:19] [Server thread/INFO]: [MultiMOTD] Disabling MultiMOTD v1.0
-[21:55:19] [Server thread/INFO]: [IllegalStack] Disabling IllegalStack v2.4.2
-[21:55:19] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.57
-[21:55:19] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[21:55:19] [Server thread/INFO]: [LuckPerms] Closing storage...
-[21:55:19] [Server thread/INFO]: [LuckPerms] Goodbye!
-[21:55:19] [Server thread/INFO]: Saving players
-[21:55:19] [Server thread/INFO]: Ne_Rubychka lost connection: Server closed
-[21:55:19] [Server thread/INFO]: Ne_Rubychka left the game
-[21:55:20] [Server thread/INFO]: Saving worlds
-[21:55:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:55:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:55:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:55:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:55:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:55:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:55:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:55:20] [Server thread/INFO]: Flushing Chunk IO
-[21:55:20] [Server thread/INFO]: Closing Thread Pool
-[21:55:20] [Server thread/INFO]: Closing Server
+[10:23:38] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[10:23:38] [Server thread/INFO]: [EssentialsGeoIP] Starting Metrics. Opt-out using the global bStats config.
+[10:23:38] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.18.2.0
+[10:23:38] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[10:23:38] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.6-beta1+0b66f3e
+[10:23:38] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[10:23:38] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[10:23:38] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[10:23:38] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[10:23:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[10:23:38] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[10:23:38] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[10:23:38] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[10:23:38] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[10:23:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[10:23:38] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[10:23:38] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[10:23:38] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[10:23:38] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[10:23:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[10:23:38] [Server thread/INFO]: [WorldGuard] Loading region data...
+[10:23:39] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.1
+[10:23:39] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[10:23:39] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[10:23:39] [Server thread/INFO]: --------------------
+[10:23:39] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[10:23:39] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[10:23:39] [Server thread/INFO]: --------------------
+[10:23:39] [Server thread/INFO]: [TabList] Enabling TabList v5.5.5
+[10:23:39] [Server thread/INFO]: [TabList] > Enabled v5.5.5! (76ms)
+[10:23:39] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-beta2-b2453
+[10:23:39] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[10:23:40] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[10:23:40] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[10:23:40] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: 'C:\Users\Пользователь\Desktop\minerose\plugins\Essentials\spawn.yml'
+[10:23:40] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[10:23:40] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[10:23:40] [Server thread/INFO]: Running delayed init tasks
+[10:23:40] [Server thread/INFO]: [ChestCommands] Found a new version: v4.0.3 (yours: v3.3.1)
+[10:23:40] [Server thread/INFO]: [ChestCommands] Download it on Bukkit Dev:
+[10:23:40] [Server thread/INFO]: [ChestCommands] dev.bukkit.org/bukkit-plugins/chest-commands
+[10:23:40] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[10:23:40] [Server thread/INFO]: Done (24.730s)! For help, type "help"
+[10:23:40] [Server thread/INFO]: Timings Reset
+[10:23:41] [Craft Scheduler Thread - 2/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[10:23:41] [Craft Scheduler Thread - 2/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[10:23:41] [Craft Scheduler Thread - 2/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[10:23:41] [Craft Scheduler Thread - 2/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[10:23:41] [Craft Scheduler Thread - 8/INFO]: [Vault] Checking for Updates ... 
+[10:23:42] [Craft Scheduler Thread - 8/INFO]: [Vault] No new version available
+[10:23:48] [User Authenticator #1/INFO]: UUID of player Ne_Rubychka is 2d315bc6-0724-339f-a73b-52f4ef1535ab
+[10:24:04] [Server thread/INFO]: [+] Ne_Rubychka
+[10:24:04] [Server thread/INFO]: Ne_Rubychka[/127.0.0.1:64922] logged in with entity id 14 at ([world]1114.7576031846447, 74.87940486146758, 202.86179584597141)
+[10:24:04] [Craft Scheduler Thread - 5/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for Ne_Rubychka. Please ensure that your license key and configuration are correct.
+[10:24:06] [Server thread/WARN]: Ne_Rubychka moved too quickly! 0.0,-10.806526110008988,0.0
+[10:24:10] [Craft Scheduler Thread - 9/INFO]: [AuthMe] Ne_Rubychka used the wrong password
+[10:24:10] [Server thread/INFO]: Ne_Rubychka lost connection: Неправильный пароль!
+[10:24:11] [Server thread/INFO]: [-] Ne_Rubychka
+[10:24:12] [User Authenticator #1/INFO]: UUID of player Ne_Rubychka is 2d315bc6-0724-339f-a73b-52f4ef1535ab
+[10:24:13] [Server thread/INFO]: [+] Ne_Rubychka
+[10:24:13] [Server thread/INFO]: Ne_Rubychka[/127.0.0.1:64944] logged in with entity id 153 at ([world]1114.7576031846447, 61.0705925615188, 202.86179584597141)
+[10:24:13] [Craft Scheduler Thread - 1/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for Ne_Rubychka. Please ensure that your license key and configuration are correct.
+[10:24:17] [Craft Scheduler Thread - 8/INFO]: [AuthMe] The user Ne_Rubychka has 2 accounts:
+[10:24:17] [Craft Scheduler Thread - 8/INFO]: [AuthMe] Ne_Rubychka, turba.
+[10:24:17] [Craft Scheduler Thread - 8/INFO]: [AuthMe] Ne_Rubychka logged in 127.0.0.1
+[10:24:55] [Server thread/INFO]: Made Ne_Rubychka a server operator
+[10:25:08] [Server thread/INFO]: Ne_Rubychka issued server command: /lp editor
+[10:25:41] [Server thread/INFO]: Ne_Rubychka issued server command: /lp editor
+[10:26:00] [User Authenticator #2/WARN]: [LuckPerms] LuckPerms already has data for player 'Turba' - but this data is stored under a different UUID.
+[10:26:00] [User Authenticator #2/WARN]: [LuckPerms] 'Turba' has previously used the unique ids [be210d0c-ef22-3277-9159-c516b8a81ae1] but is now connecting with '11550eee-4e0e-3bc7-ae02-acdb3ee6ebc0'
+[10:26:00] [User Authenticator #2/WARN]: [LuckPerms] The UUID the player is connecting with now is NOT Mojang-assigned (type 3). This implies that THIS server is not authenticating correctly, but one (or more) of the other servers/proxies in the network are.
+[10:26:00] [User Authenticator #2/WARN]: [LuckPerms] If you're using BungeeCord/Velocity, please ensure that IP-Forwarding is setup correctly on all of your backend servers!
+[10:26:00] [User Authenticator #2/WARN]: [LuckPerms] See here for more info: https://luckperms.net/wiki/Network-Installation#pre-setup
+[10:26:00] [User Authenticator #2/INFO]: UUID of player Turba is 11550eee-4e0e-3bc7-ae02-acdb3ee6ebc0
+[10:26:00] [Server thread/INFO]: [+] Turba
+[10:26:00] [Craft Scheduler Thread - 11/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for Turba. Please ensure that your license key and configuration are correct.
+[10:26:00] [Server thread/INFO]: Turba[/127.0.0.1:51110] logged in with entity id 448 at ([world]25.895381666051414, 76.0, -26.456434342610024)
+[10:26:00] [Server thread/INFO]: [Essentials] Found new UUID for Turba. Replacing be210d0c-ef22-3277-9159-c516b8a81ae1 with 11550eee-4e0e-3bc7-ae02-acdb3ee6ebc0
+[10:26:14] [Craft Scheduler Thread - 11/INFO]: [AuthMe] Turba used the wrong password
+[10:26:14] [Server thread/INFO]: Turba lost connection: Неправильный пароль!
+[10:26:14] [Server thread/INFO]: [-] ~TurboTruba
+[10:26:16] [User Authenticator #2/INFO]: UUID of player Turba is 11550eee-4e0e-3bc7-ae02-acdb3ee6ebc0
+[10:26:16] [Server thread/INFO]: [+] Turba
+[10:26:16] [Server thread/INFO]: Turba[/127.0.0.1:51113] logged in with entity id 533 at ([world]25.895381666051414, 76.0, -26.456434342610024)
+[10:26:16] [Craft Scheduler Thread - 4/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for Turba. Please ensure that your license key and configuration are correct.
+[10:26:46] [Craft Scheduler Thread - 4/INFO]: [AuthMe] Turba used the wrong password
+[10:26:46] [Server thread/INFO]: Turba lost connection: Неправильный пароль!
+[10:26:46] [Server thread/INFO]: [-] ~TurboTruba
+[10:26:48] [User Authenticator #2/INFO]: UUID of player Turba is 11550eee-4e0e-3bc7-ae02-acdb3ee6ebc0
+[10:26:48] [Server thread/INFO]: [+] Turba
+[10:26:48] [Server thread/INFO]: Turba[/127.0.0.1:51116] logged in with entity id 608 at ([world]25.895381666051414, 76.0, -26.456434342610024)
+[10:26:48] [Craft Scheduler Thread - 4/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for Turba. Please ensure that your license key and configuration are correct.
+[10:27:19] [Craft Scheduler Thread - 17/INFO]: [AuthMe] Turba used the wrong password
+[10:27:20] [Server thread/INFO]: Turba lost connection: Неправильный пароль!
+[10:27:20] [Server thread/INFO]: [-] ~TurboTruba
+[10:27:27] [Server thread/INFO]: Ne_Rubychka issued server command: /authme
+[10:27:30] [Server thread/INFO]: Ne_Rubychka issued server command: /authme help
+[10:27:49] [User Authenticator #3/INFO]: UUID of player Turba is 11550eee-4e0e-3bc7-ae02-acdb3ee6ebc0
+[10:27:49] [Server thread/INFO]: [+] Turba
+[10:27:49] [Server thread/INFO]: Turba[/127.0.0.1:51122] logged in with entity id 732 at ([world]25.895381666051414, 76.0, -26.456434342610024)
+[10:27:49] [Craft Scheduler Thread - 17/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for Turba. Please ensure that your license key and configuration are correct.
+[10:28:05] [Craft Scheduler Thread - 18/INFO]: [AuthMe] Turba used the wrong password
+[10:28:05] [Server thread/INFO]: Turba lost connection: Неправильный пароль!
+[10:28:05] [Server thread/INFO]: [-] ~TurboTruba
+[10:28:06] [User Authenticator #3/INFO]: UUID of player Turba is 11550eee-4e0e-3bc7-ae02-acdb3ee6ebc0
+[10:28:06] [Server thread/INFO]: [+] Turba
+[10:28:06] [Server thread/INFO]: Turba[/127.0.0.1:51127] logged in with entity id 822 at ([world]25.895381666051414, 76.0, -26.456434342610024)
+[10:28:06] [Craft Scheduler Thread - 16/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for Turba. Please ensure that your license key and configuration are correct.
+[10:28:19] [Craft Scheduler Thread - 16/INFO]: [AuthMe] Turba used the wrong password
+[10:28:19] [Server thread/INFO]: Turba lost connection: Неправильный пароль!
+[10:28:19] [Server thread/INFO]: [-] ~TurboTruba
+[10:28:24] [Server thread/INFO]: Ne_Rubychka issued server command: /authme recet Turba
+[10:28:32] [Server thread/INFO]: Ne_Rubychka issued server command: /authme
+[10:28:34] [Server thread/INFO]: Ne_Rubychka issued server command: /authme help
+[10:29:05] [Server thread/INFO]: Ne_Rubychka issued server command: /authme unregister Turba
+[10:29:05] [Craft Scheduler Thread - 21/INFO]: [AuthMe] Turba was unregistered by Ne_Rubychka
+[10:29:08] [User Authenticator #4/INFO]: UUID of player Turba is 11550eee-4e0e-3bc7-ae02-acdb3ee6ebc0
+[10:29:08] [Server thread/INFO]: [+] Turba
+[10:29:08] [Server thread/INFO]: Turba[/127.0.0.1:51133] logged in with entity id 908 at ([world]25.895381666051414, 76.0, -26.456434342610024)
+[10:29:08] [Craft Scheduler Thread - 20/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for Turba. Please ensure that your license key and configuration are correct.
+[10:29:16] [Server thread/INFO]: [AuthMe] Turba registered 127.0.0.1
+[10:29:16] [Craft Scheduler Thread - 22/INFO]: [AuthMe] The user Turba has 2 accounts:
+[10:29:16] [Craft Scheduler Thread - 22/INFO]: [AuthMe] Ne_Rubychka, Turba.
+[10:29:16] [Craft Scheduler Thread - 22/INFO]: [AuthMe] Turba logged in 127.0.0.1
+[10:30:03] [Server thread/INFO]: Ne_Rubychka issued server command: /lp user Ne_Rubychka parent set admin
+[10:30:03] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [U] (ne_rubychka)
+[10:30:03] [luckperms-command-executor/INFO]: [LP] ЛОГ > parent set admin
+[10:30:17] [Server thread/INFO]: Turba was slain by Zombie
+[10:30:27] [Server thread/INFO]: Ne_Rubychka issued server command: /day
+[10:30:32] [Server thread/INFO]: Ne_Rubychka issued server command: /tp Turba
+[10:30:52] [Server thread/INFO]: Turba issued server command: /nte reload
+[10:30:57] [Server thread/INFO]: Ne_Rubychka issued server command: /nte reload
+[10:31:11] [Server thread/INFO]: Ne_Rubychka issued server command: /nte reload
+[10:31:18] [Server thread/INFO]: Ne_Rubychka issued server command: /nte reload
+[10:32:14] [Server thread/INFO]: Ne_Rubychka issued server command: /nte
+[10:32:22] [Server thread/INFO]: Ne_Rubychka issued server command: /
+[10:33:20] [Server thread/INFO]: Ne_Rubychka issued server command: /lp applyedits UHHxbYrfyf
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (admin)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add nte.admin true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (moder)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add nte.moder true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (pelmeshka)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add nte.pelmeshka true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (netherite)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add nte.netherite true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (emerald)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add nte.emerald true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (diamond)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add nte.diamond true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (gold)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add nte.gold true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldguard.region.info.own.* true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldguard.region.addowner.own.* true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldedit.selection.pos true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldedit.selection.hpos true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldedit.wand.toggle true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldguard.region.info.own true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldguard.region.removemember.own.* true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldguard.region.claim true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldguard.region.addmember.own.* true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldguard.region.wand true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldguard.region.list.own true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldguard.region.remove.own.* true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldguard.region.select.own.* true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldguard.region.removeowner.own.* true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldguard.region.select.member.* true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add worldedit.selection.expand true
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [G] (default)
+[10:33:20] [luckperms-command-executor/INFO]: [LP] ЛОГ > webeditor add nte.default true
+[10:33:28] [Server thread/INFO]: Ne_Rubychka issued server command: /nte reload
+[10:34:02] [Server thread/INFO]: Ne_Rubychka issued server command: /lp user Turba parent set gold
+[10:34:02] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [U] (turba)
+[10:34:02] [luckperms-command-executor/INFO]: [LP] ЛОГ > parent set gold
+[10:34:39] [Server thread/INFO]: Ne_Rubychka issued server command: /lp user Turba parent set default
+[10:34:39] [luckperms-command-executor/INFO]: [LP] ЛОГ > (Ne_Rubychka) [U] (turba)
+[10:34:39] [luckperms-command-executor/INFO]: [LP] ЛОГ > parent set default
+[10:42:23] [Server thread/INFO]: Ne_Rubychka lost connection: Disconnected
+[10:42:23] [Server thread/INFO]: [-] Ne_Rubychka
+[10:42:54] [Server thread/INFO]: Turba lost connection: Disconnected
+[10:42:54] [Server thread/INFO]: [-] ~TurboTruba
+[11:15:38] [Server thread/INFO]: Saving the game (this may take a moment!)
+[11:15:38] [Server thread/INFO]: Saved the game
+[11:15:41] [Server thread/INFO]: Stopping the server
+[11:15:41] [Server thread/INFO]: Stopping server
+[11:15:41] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-beta2-b2453
+[11:15:41] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[11:15:41] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-beta2-b2453 disabled!
+[11:15:41] [Server thread/INFO]: [TabList] Disabling TabList v5.5.5
+[11:15:41] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v20.1
+[11:15:41] [Server thread/INFO]: [CoreProtect] Finishing up data logging. Please wait...
+[11:15:42] [Server thread/INFO]: [CoreProtect] Success! Disabled CoreProtect v20.1
+[11:15:42] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.6-beta1+0b66f3e
+[11:15:42] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[11:15:42] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.18.2.0
+[11:15:42] [Server thread/INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.18.2.0
+[11:15:42] [Server thread/INFO]: [Essentials] Disabling Essentials v2.18.2.0
+[11:15:42] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[11:15:42] [Server thread/INFO]: [ChestCommands] Disabling ChestCommands v3.3.1
+[11:15:42] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.6-beta-02+2e45a20
+[11:15:42] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[11:15:42] [Server thread/INFO]: [Chatty] Disabling Chatty v2.19.4
+[11:15:42] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[11:15:42] [Server thread/INFO]: [NametagEdit] Disabling NametagEdit v4.5.0
+[11:15:42] [Server thread/INFO]: [MultiMOTD] Disabling MultiMOTD v1.0
+[11:15:42] [Server thread/INFO]: [IllegalStack] Disabling IllegalStack v2.4.2
+[11:15:42] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.57
+[11:15:42] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[11:15:42] [Server thread/INFO]: [LuckPerms] Closing storage...
+[11:15:42] [Server thread/INFO]: [LuckPerms] Goodbye!
+[11:15:42] [Server thread/INFO]: Saving players
+[11:15:42] [Server thread/INFO]: Saving worlds
+[11:15:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:15:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[11:15:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:15:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:15:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:15:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:15:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:15:42] [Server thread/INFO]: Flushing Chunk IO
+[11:15:42] [Server thread/INFO]: Closing Thread Pool
+[11:15:42] [Server thread/INFO]: Closing Server

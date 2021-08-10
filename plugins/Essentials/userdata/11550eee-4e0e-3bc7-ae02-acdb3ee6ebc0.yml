@@ -1,7 +1,7 @@
 lastAccountName: Turba
 timestamps:
-  login: 1628517762250
-  logout: 1628520441483
+  login: 1628580548237
+  logout: 1628581374041
 ipAddress: 127.0.0.1
 lastlocation:
   world: world
@@ -12,9 +12,9 @@ lastlocation:
   pitch: 66.004585
 logoutlocation:
   world: world
-  x: 32.5
-  y: 70.0
-  z: -31.5
-  yaw: -42.46091
-  pitch: 7.916442
+  x: 96.69999998807907
+  y: 69.0
+  z: -4.872777301981915
+  yaw: 29.403849
+  pitch: 27.347658
 nickname: TurboTruba
