@@ -18,7 +18,7 @@ messages:
   kick:
     flying-player: Flying is not enabled on this server
     flying-vehicle: Flying is not enabled on this server
-    connection-throttle: Connection throttled! Please wait before reconnecting.
+    connection-throttle: Соединение прервано, подождите немного перед следующим подключением.
     authentication-servers-down: ''
 settings:
   log-named-entity-deaths: true
@@ -91,7 +91,7 @@ timings:
   - settings.velocity-support.secret
   history-interval: 300
   history-length: 3600
-  server-name: Unknown Server
+  server-name: MineRose
 world-settings:
   default:
     seed-based-feature-search: true
@@ -135,7 +135,7 @@ world-settings:
     container-update-tick-rate: 1
     should-remove-dragon: false
     fixed-chunk-inhabited-time: -1
-    optimize-explosions: false
+    optimize-explosions: true
     remove-corrupt-tile-entities: false
     experience-merge-max-value: -1
     per-player-mob-spawns: false
@@ -217,8 +217,8 @@ world-settings:
       water-ambient: -1
       ambient: -1
     anti-xray:
-      enabled: false
-      engine-mode: 1
+      enabled: true
+      engine-mode: 3
       max-block-height: 64
       update-radius: 2
       lava-obscures: false

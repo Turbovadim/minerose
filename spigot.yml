@@ -50,12 +50,12 @@ commands:
   - /skill
   silent-commandblock-console: false
 messages:
-  restart: Server is restarting
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
+  restart: Сервер перезагружается.
+  whitelist: Вы не находитесь в белом списке сервера!
+  unknown-command: Неизвестная команда. Наберите "/help" для помощи.
+  server-full: Сервер заполнен!
+  outdated-client: У вас устаревшая версия! Пожалуйста используйте {0}
+  outdated-server: Устаревший сервер! Мы всё еще на {0}
 advancements:
   disable-saving: false
   disabled:
